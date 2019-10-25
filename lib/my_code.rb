@@ -1,4 +1,4 @@
-map_to_negativize(source_array)
+def map_to_negativize(source_array)
   new_arr = []
   i = 0 
   
@@ -11,7 +11,7 @@ map_to_negativize(source_array)
   new_arr
 end
 
-map_to_no_change(source_array)
+def map_to_no_change(source_array)
   new_arr = []
   i = 0 
   
@@ -25,7 +25,7 @@ map_to_no_change(source_array)
 end
  
 
-map_to_double(source_array)
+def map_to_double(source_array)
 
  new_arr = []
   i = 0 
@@ -39,7 +39,7 @@ map_to_double(source_array)
   new_arr
 end
 
-map_to_square(source_array)
+def map_to_square(source_array)
  new_arr = []
   i = 0 
   
