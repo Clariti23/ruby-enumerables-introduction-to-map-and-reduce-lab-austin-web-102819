@@ -26,4 +26,34 @@ end
  
 
 map_to_double(source_array)
-map_to_square(source_array)# My Code here....
+
+ new_arr = []
+  i = 0 
+  
+  while i < source_array.length 
+  ele = source_array[i]
+  new_arr.push(ele*2)
+  i += 1
+  end
+
+  new_arr
+end
+
+map_to_square(source_array)
+ new_arr = []
+  i = 0 
+  
+  while i < source_array.length 
+  ele = source_array[i]
+  new_arr.push(ele*ele)
+  i += 1
+  end
+
+  new_arr
+end
+
+
+
+
+
+# My Code here....
